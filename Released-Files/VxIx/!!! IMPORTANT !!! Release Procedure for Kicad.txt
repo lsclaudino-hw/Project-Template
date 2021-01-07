@@ -1,0 +1,53 @@
+Follow this procedure before releasing files. Confirm every action with initials and date.
+IF ANY CHANGES NEEDS TO BE DONE, START THE PROCEDURE FROM BEGINNING!
+
+The procedure needs to be executed according to the following order.
+_______________________
+
+1) Perform the electrial rules checkin: Menu -> Inspect -> Electrical Rules Checker
+I confirm, the project compiles with no errors
+LC [18-NOV-2020]
+
+2) Uptade the project settings: File -> Page Settings
+I confirm, the page settings are updated
+LC [18-NOV-2020]
+
+3) Run Tools-> Update PCB from Schematic
+I confirm, there are no diferences between schematic and PCB
+LC [18-NOV-2020]
+
+4) Impedance
+I confirm, I have updated and checked track width/gap to match required impedance (e.g. 50 Ohms) - If impedance control is required.
+LC [18-NOV-2020]
+
+5) Run Edit -> Fill All Zones
+I confirm, all polygons have been repoured
+LC [18-NOV-2020]
+
+6) Run Inspect  -> Design Rule Checker -> Run DRC
+I confirm, I have checked Design Rule Output File
+LC [18-NOV-2020]
+
+7) Gerber check
+I confirm, I have coppied and visually checked gerger files placed in \Manufacturing\Gerbers
+LC [18-NOV-2020]
+
+8) Drill files
+I confirm, I have coppied and visually checked drill files placed in \Manufacturing\Drill
+LC [18-NOV-2020]
+
+9) Pick and Place
+I confirm, I have generated and visually checked gerger files placed in \Assembly]
+LC [18-NOV-2020]
+
+1) BOM
+I confirm, I have generated and visually checked the Bill of Materials according to proper template and placed it at \Assembly
+LC [18-NOV-2020]
+
+11) Other files
+I confirm, I have coppied and checked files placed in subdirectories.
+LC [18-NOV-2020]
+
+12) GIT
+I confirm, I have already pushed all changes into proper git branch
+LC [18-NOV-2020]
